@@ -25,3 +25,8 @@ https://blpceramic-com.github.io/plastora/
 
 ## Important
 Product names, prices, capacities, materials, compatibility, care instructions, policies and other commercial details may be demonstration content. Verify actual product information before publication.
+
+
+## V2 Image QA
+
+The V2 image library uses standalone product photographs extracted from a clean product-only studio source. Every catalog image is a square 1200×1200 asset, centered and presented with `object-fit: contain`; no prices, ratings, buttons, navigation, webpage screenshots, or other UI are embedded in the product photography.

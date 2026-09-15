@@ -14,3 +14,32 @@
 @media(max-width:1150px){.category-grid{grid-template-columns:repeat(4,1fr)}.product-grid{grid-template-columns:repeat(3,1fr)}.foot-grid{grid-template-columns:repeat(3,1fr)}.head{grid-template-columns:160px 1fr}.nav{gap:9px}}
 @media(max-width:760px){.announce{display:none}.head{grid-template-columns:1fr;justify-items:center}.nav{justify-content:flex-start;width:100%}.tools{justify-content:center}.hero{grid-template-columns:1fr}.hero-copy{padding:45px 8%}.hero h1{font-size:50px}.hero-image{min-height:330px}.category-grid,.collection-grid{grid-template-columns:repeat(2,1fr)}.benefits{grid-template-columns:repeat(2,1fr)}.product-grid{grid-template-columns:repeat(2,1fr)}.section-head{display:block}.editorial,.support{grid-template-columns:1fr;display:grid}.editorial-grid{grid-template-columns:repeat(2,1fr)}.foot-grid{grid-template-columns:1fr 1fr}.detail{grid-template-columns:1fr}.detail-photo,.detail-photo img{height:370px;min-height:370px}}
 @media(max-width:460px){.category-grid{grid-template-columns:1fr 1fr}.product-grid{grid-template-columns:1fr 1fr}.foot-grid{grid-template-columns:1fr}}
+
+/* V2 FINAL IMAGE SYSTEM */
+.photo,.product-image{
+  width:100%;
+  aspect-ratio:1 / 1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  background:#f4f7f5;
+}
+.photo img,.product-image img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:contain !important;
+  object-position:center center !important;
+  padding:12px !important;
+}
+.cat img,.category-card img{
+  width:100%;
+  aspect-ratio:1 / 1;
+  height:auto;
+  display:block;
+  object-fit:contain !important;
+  object-position:center center !important;
+  padding:8px;
+  background:#f3f7f4;
+}
